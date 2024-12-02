@@ -34,7 +34,7 @@ int main() {
                 cout << "Character #" << i << ": ";
                 cin >> c[i];
         }
-        int max = *max_element(h, h + 6);
+        int max = max_element(h, h + 6);
         for (int i = 0; i < 5; i++) {
                 for (int j = i + 1; j < 6; j++) {
                         if (h[i] < h[j]) {
